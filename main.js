@@ -6,7 +6,7 @@ const btn = document.querySelector('button');
 function selectElem(event) {
         event.preventDefault();
 
-    axios.get(`http://api.nbp.pl/api/exchangerates/rates/A/${select.value.toLowerCase()}/`).then(function(response) {
+    axios.get(`//api.nbp.pl/api/exchangerates/rates/A/${select.value.toLowerCase()}/`).then(function(response) {
             let rate = response.data.rates[0].mid;
             result.innerText = (amount.value * rate).toFixed(2) + " PLN";
     })
