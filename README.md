@@ -16,7 +16,7 @@ Design was created with Bootstrap.
 
 ## Commissioning
 
-[Currency calculator](https://ewaklosinska.github.io/currency-calculator/ "currency-calculator")
+[Currency calculator](//ewaklosinska.github.io/currency-calculator/ "currency-calculator")
 
 ## Status
 
