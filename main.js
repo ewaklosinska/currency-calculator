@@ -1,5 +1,5 @@
-const amount = document.querySelector('input#amount');
-const select = document.getElementById('currency');
+const amount = document.querySelector('input.amount');
+const select = document.querySelector('select.currency');
 const result = document.querySelector('div.result');
 const btn = document.querySelector('button');
 
